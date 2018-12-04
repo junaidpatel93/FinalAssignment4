@@ -1,0 +1,11 @@
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\obj\Debug\SeleniumTests.csprojAssemblyReference.cache
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\obj\Debug\SeleniumTests.csproj.CoreCompileInputs.cache
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\bin\Debug\SeleniumTests.dll
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\bin\Debug\SeleniumTests.pdb
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\bin\Debug\nunit.framework.dll
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\bin\Debug\WebDriver.dll
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\bin\Debug\nunit.framework.xml
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\bin\Debug\WebDriver.xml
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\obj\Debug\SeleniumTests.csproj.CopyComplete
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\obj\Debug\SeleniumTests.dll
+C:\Users\Junaid Patel\source\repos\ConsoleApp8\SeleniumTests\obj\Debug\SeleniumTests.pdb
