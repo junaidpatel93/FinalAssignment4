@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>User Profile</title>
+	<meta name="description" content="ABCDE premium HTML5&amp;CSS3 template">
+	<meta name="author" content="MosaicDesign">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/theme-style.css">
+    <link rel="stylesheet" href="css/ie.style.css">
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	
+</head>
+<body>
+	<!-- Header-->
+	<div id="header_load"></div>
+	<!-- End header -->
+	<!--Content cart-->
+	<section>
+		<div class="block color-scheme-3">
+			<div class="container">
+				<div class="row" id="message" style="color:blue"></div>
+				<div class="row">
+                    <div class="box-border">
+                        <div class="row">
+                            <div class="wrapper">
+                                <h3>Enter Your Details</h3>
+                                <hr style="border-color:darkred">
+                            </div>
+                            
+                            
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>First Name</label><span id="fn-error" class="hide error-message">(Please Enter First Name)</span>
+                                        <input id="firstName" type="text" class="form-control c1" name="details" onblur="validateFirstName()">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Last Name</label><span id="ln-error" class="hide error-message">(Please Enter Last Name)</span>
+                                        <input id="lastName" type="text" class="form-control c1" name="details" onblur="validateLastName()">
+                                    </div>
+                                    <div class="col-md-12 pad-10"></div>
+                                    <div class="col-md-6">
+                                        <label>Email</label><span id="email-error" class="hide error-message">(Please Enter Email in correct format)</span>
+                                        <input id="email" type="text" class="form-control c1" name="details" onblur="validateEmail()">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Phone Number | Format: '000-000-0000' / '(000)000-0000'</label><span id="phone-error" class="hide error-message">(Please enter correct phone number/format)</span>
+                                        <input id="phone" type="text" class="form-control c1" name="details" onblur="validatePhone()">
+                                    </div>
+                                    <div class="col-md-12 pad-10"></div>
+                                    <div class="col-md-12">
+                                        <label>Address</label><span id="ad-error" class="hide error-message">(Please Enter Address)</span>
+                                        <input id="address" type="text" class="form-control c1" name="details" onblur="validateAddress()">
+                                    </div>
+                                    <div class="col-md-12 pad-10"></div>
+                                    <div class="col-md-4">
+                                        <label>City</label><span id="city-error" class="hide error-message">(Please Enter City)</span>
+                                        <input id="city" type="text" class="form-control c1" name="details" onblur="validateCity()">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label>Province</label>
+                                        <select class="form-control c1" name="details">
+                                            <option selected="selected">Ontario</option>
+                                            <option>Alberta</option>
+                                            <option>Nova Scotia</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label>Postal Code</label><span id="pc-error" class="hide error-message">(Please Enter Correct Postal Code)</span>
+                                        <input id="postalCode" type="text" class="form-control c1" name="details" onblur="validatePostalCode()">
+                                    </div>
+                                    <div class="col-md-12"></div>
+                                    <div class="col-md-12 pad-10"></div>
+                                    <div class="col-md-4">
+                                        <label>Vehicle Make</label><span id="make-error" class="hide error-message">(Please Enter Valid Make)</span>
+                                        <input id="make" type="text" class="form-control c1" name="details" onblur="validateVehicleMake()">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label>Vehicle Model</label><span id="model-error" class="hide error-message">(Please Enter Valid Model)</span>
+                                        <input id="model" type="text" class="form-control c1" name="details" onblur="validateVehicleModel()">
+                                    </div>
+                                    <div class="col-md-4">
+                                            <label>Vehicle Year</label><span id="year-error" class="hide error-message">(Please Enter Valid Year)</span>
+                                            <input id="year" type="text" class="form-control c1" name="details" onblur="validateVehicleYear()">
+                                        </div>
+                                    <div class="col-md-12 pad-10"></div>
+                                    <div class="col-md-12 wrapper">
+                                        <input id="btnupload" type="button" value="Upload" onclick="validateUpload()" class="btn-default-1">
+                                        <input id="btnclear" type="button" value="Clear" class="btn-default-1"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="box-border">
+                        <div class="row">
+                            <div class="wrapper">
+                                <input type="text" id="myInput" onkeyup="mySearch()" placeholder="Search for names..">
+                                <div class="col-md-12 pad-10"></div>
+                                <div class="col-md-12 pad-10"></div>
+                                <div id="dvcontainer" class="" style="width: 100%">
+                                </div>
+
+                                <div class="col-md-12 pad-10"></div>
+                                <div class="col-md-12 pad-10"></div>
+                                <input id="btnclearstorage" type="button" value="Clear Local Storage" class="btn-default-1" />
+                                <div class="col-md-12 pad-10"></div>
+                            </div>
+                        </div>
+                    </div>       
+				</div>
+			</div>
+		</div>
+            
+                
+	</section>
+	<!-- End Section footer -->
+	<!-- Custome Slider  -->
+    <script src="home.js"></script>
+    <script src="localTab.js"></script>
+</body>
+</html>
